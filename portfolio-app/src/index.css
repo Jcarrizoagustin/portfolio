@@ -10,14 +10,13 @@
   color: var(--verde);
   background-color: var(--purpura);
 
-  
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
 }
+
+html{
+  width: 100vw;
+  overflow-x:hidden
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -31,6 +30,6 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  width: 100vw;
+  width: 100%;
 }
 

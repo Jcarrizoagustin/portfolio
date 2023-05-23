@@ -8,6 +8,7 @@ const info1 = {
   description:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero minima repudiandae numquam sapiente! Quibusdam doloremque quasi perspiciatis neque quae.",
   tecnologies: ["Spring Boot", "ReactJS", "CSS"],
+  linkCode: "https://github.com/Jcarrizoagustin/veterinaria",
 };
 
 const info2 = {
@@ -17,6 +18,7 @@ const info2 = {
   description:
     "Lorem, quos facere iste cum dolores perspiciatis fuga nam voluptate, aspernatur vel provident nostrum blanditiis dignissimos culpa rem nihil? Quaerat, sint non natus minus accusamus harum pariatur ipsum quam sed excepturi neque deserunt reprehenderit eos!",
   tecnologies: ["Spring Boot", "Angular", "Tailwind"],
+  linkCode: "https://github.com/Jcarrizoagustin/veterinaria",
 };
 
 const info3 = {
@@ -26,6 +28,7 @@ const info3 = {
   description:
     "Lorem ipsum dolor Lorem, quos facere iste cum dolores perspiciatis fuga nam voluptate, Lorem, quos facere iste cum dolores perspiciatis fuga nam voluptate, aspernatur vel provident nostrum blanditiis sit amet consectetur adipisicing elit. Reiciendis libero minima repudiandae numquam sapiente! Quibusdam doloremque quasi perspiciatis neque quae.",
   tecnologies: ["Spring Boot", "Svelte", "SASS"],
+  linkCode: "https://github.com/Jcarrizoagustin/veterinaria",
 };
 
 function Works() {
