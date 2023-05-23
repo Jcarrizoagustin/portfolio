@@ -1,0 +1,7 @@
+.name{
+  padding: .2rem;
+  background-color: var(--verde);
+  opacity: .9;
+  color: var(--purpura);
+  border-radius: .3rem;
+}

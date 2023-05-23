@@ -2,11 +2,12 @@
   width: 100%;
   margin: 5rem auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .title {
-  font-size: 2.5rem;
-  width: 40%;
+  font-size: 3rem;
+  width: 30%;
 }
 
 .text{

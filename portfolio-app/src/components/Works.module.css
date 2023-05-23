@@ -1,0 +1,8 @@
+.worksContainer{
+  padding: 1rem;
+  width: 100%;
+  min-height: 20rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}

@@ -16,10 +16,14 @@
 
 .link{
   font-size: 1.5rem;
+  border-bottom: 2px solid transparent;
+  
 }
 
 .link:hover {
   cursor:pointer;
   background: rgba(72,49,212,0.5);
-  
+  transition: border-bottom .3s linear;
+  border-bottom: 2px solid #CCF381;
 }
+

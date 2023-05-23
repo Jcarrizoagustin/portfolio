@@ -3,15 +3,25 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --purpura: #4831D4;
+  --verde: #CCF381;
+
   color-scheme: light dark;
-  color: #CCF381;
-  background-color: #4831D4;
+  color: var(--verde);
+  background-color: var(--purpura);
+
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -21,8 +31,6 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
   width: 100vw;
-  position: absolute;
 }
 
