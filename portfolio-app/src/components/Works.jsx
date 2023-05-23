@@ -6,7 +6,7 @@ const info1 = {
   title: "Spark Hotel",
   date: "Octubre - 2022",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis libero minima repudiandae numquam sapiente! Quibusdam doloremque quasi perspiciatis neque quae.",
+    "Sistema de reservas de habitaciones. Desarrado con Spring y sus modulos Spring Boot, Spring Data JPA para la perssitencia de datos, Spring Web y Spring Security para la securizacion. API REST. Frontend creado con React JS. Otras librerias usadas: React Rounter Dom.",
   tecnologies: ["Spring Boot", "ReactJS", "CSS"],
   linkCode: "https://github.com/Jcarrizoagustin/veterinaria",
 };
@@ -34,7 +34,7 @@ const info3 = {
 function Works() {
   return (
     <>
-      <h2 style={{ fontSize: "3rem" }}>Mis Proyectos</h2>
+      <h2 style={{ fontSize: "2rem" }}>Mis Proyectos</h2>
       <section className={styles.worksContainer}>
         <Work workInfo={info1} />
         <Work workInfo={info2} />

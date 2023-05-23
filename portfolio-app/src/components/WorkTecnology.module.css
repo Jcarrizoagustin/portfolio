@@ -1,7 +1,7 @@
 .name{
   padding: .2rem;
-  background-color: var(--verde);
+  background-color: #158a9c;
   opacity: .9;
-  color: var(--purpura);
+  color: white;
   border-radius: .3rem;
 }

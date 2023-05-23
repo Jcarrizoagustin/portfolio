@@ -2,9 +2,13 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  --purpura: #4831D4;
-  --verde: #CCF381;
+  /*  #0A1A2A -- azul
+      #4831D4 --purpura
+      #CCF381 --verde
+  */
+  --purpura: #103153;
+  --verde: white;
+  --gris: #f2f2f2;
 
   color-scheme: light dark;
   color: var(--verde);

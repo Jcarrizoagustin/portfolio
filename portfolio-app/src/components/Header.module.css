@@ -1,8 +1,7 @@
 .header {
   width: 90%;
+  padding-bottom: 1rem;
   margin: 0 auto;
-  position: relative;
-  top: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -22,9 +21,9 @@
 
 .link:hover {
   cursor:pointer;
-  background: rgba(72,49,212,0.5);
   transition: border-bottom .3s linear;
-  border-bottom: 2px solid #CCF381;
+  border-bottom: 2px solid var(--verde);
+  opacity: .8;
 }
 
 @media screen and (max-width: 1024px){

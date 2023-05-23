@@ -3,14 +3,25 @@
   margin: 5rem auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.title {
-  font-size: 3rem;
-  width: 30%;
+.title{
+  width: 40%;
+}
+
+.name {
+  font-size: 4rem;
+}
+
+.job{
+  font-size: 2rem;
+  font-weight: 300;
 }
 
 .text{
-  width: 60%;
+  color: var(--gris);
+  width: 50%;
   font-size: 1.3rem;
+  font-weight: 300;
 }

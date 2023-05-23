@@ -1,7 +1,7 @@
 .work{
   width: 100%;
   padding: .5rem;
-  border: 1px solid var(--verde);
+  border: 1px solid grey;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -11,13 +11,15 @@
 .workImg{
   width: 100%;
   height: 15rem;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .workImg > img {
   width: 100%;
   height: 100%;
   
-  border-radius: 1rem;
+ 
 }
 
 .workDetails{
@@ -30,24 +32,30 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:center;
   gap: 1rem;
 }
 
 .workDate{
   font-weight: 300;
+  color: #45b2be;
+}
+
+.workDescription {
   color: white;
+  margin-bottom: 1rem;
 }
 
 .workTecnologies{
   display: flex;
-  gap: 5px;
+  gap: .7rem;
   justify-content: center;
 }
 
 .icon {
   width: 1.5rem;
   height: 1.5rem;
+  color: #34828c;
 }
 
 .icon:hover {
