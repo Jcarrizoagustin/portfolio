@@ -1,0 +1,15 @@
+.main{
+  width: 100%;
+  margin: 5rem auto;
+  display: flex;
+}
+
+.title {
+  font-size: 2.5rem;
+  width: 40%;
+}
+
+.text{
+  width: 60%;
+  font-size: 1.3rem;
+}

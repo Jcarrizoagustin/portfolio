@@ -1,0 +1,25 @@
+.header {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.menu{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.link{
+  font-size: 1.5rem;
+}
+
+.link:hover {
+  cursor:pointer;
+  background: rgba(72,49,212,0.5);
+  
+}
