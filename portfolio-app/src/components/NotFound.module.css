@@ -1,0 +1,11 @@
+.errorContainer {
+  width: 80%;
+  height: 40rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.errorMessage {
+  font-size: 5rem;
+}
