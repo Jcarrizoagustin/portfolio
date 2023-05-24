@@ -1,20 +1,58 @@
-.conteiner {
+.container {
   width: 100%;
-  height: 10rem;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .contactItems {
   margin-top: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  gap: 3rem;
+  gap: 2rem;
+}
+
+.contact {
+  min-width: 12rem;
+  margin: 0 auto;
+  padding: .5rem; 
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  border: 1px solid var(--blanco);
+  border-radius: 1rem;
+  transition: background-color .2s ease;
+  color: inherit;
+  text-decoration: none;
+}
+
+.contact:hover {
+  background-color: var(--blanco);
+  color:var(--azul);
+  cursor: pointer;
+  opacity: .9;
+  transition: background-color .2s ease;
 }
 
 .contactTitle {
-  font-size: 2rem;
+  font-family: 'Poppins';
+  font-size: 2.5rem;
+  letter-spacing: 3px;
 }
 
 .contactName{
+  font-weight: 300;
+  margin-left: .5rem;
+}
+
+.location {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.locationCity {
   font-weight: 300;
 }

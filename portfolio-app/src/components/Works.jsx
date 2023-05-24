@@ -34,11 +34,25 @@ const info3 = {
 function Works() {
   return (
     <>
-      <h2 style={{ fontSize: "2rem" }}>Mis Proyectos</h2>
+      <h2
+        style={{
+          fontSize: "2.5rem",
+          marginTop: "3rem",
+          letterSpacing: "3px",
+          fontFamily: "Poppins",
+        }}
+      >
+        Mis Proyectos
+      </h2>
       <section className={styles.worksContainer}>
         <Work workInfo={info1} />
         <Work workInfo={info2} />
         <Work workInfo={info3} />
+        <Work workInfo={info1} />
+        <Work workInfo={info2} />
+        <Work workInfo={info3} />
+        <Work workInfo={info1} />
+        <Work workInfo={info2} />
       </section>
     </>
   );

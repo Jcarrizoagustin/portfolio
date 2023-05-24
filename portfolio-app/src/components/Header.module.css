@@ -27,7 +27,7 @@
 .link:hover {
   cursor:pointer;
   transition: border-bottom .3s linear;
-  border-bottom: 2px solid var(--verde);
+  border-bottom: 2px solid var(--blanco);
   opacity: .8;
 }
 
@@ -37,3 +37,4 @@
     justify-content: space-around;
   }
 }
+

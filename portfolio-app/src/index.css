@@ -6,19 +6,20 @@
       #4831D4 --purpura
       #CCF381 --verde
   */
-  --purpura: #103153;
-  --verde: white;
+  --azul: #103153;
+  --blanco: white;
   --gris: #f2f2f2;
 
   color-scheme: light dark;
-  color: var(--verde);
-  background-color: var(--purpura);
+  color: var(--blanco);
+  background-color: var(--azul);
 
 }
 
 html{
   width: 100vw;
-  overflow-x:hidden
+  overflow-x:hidden;
+  
 }
 
 *{
@@ -30,6 +31,7 @@ html{
 
 
 body {
+  background: linear-gradient(180deg, rgba(16,49,83,1) 29%, rgba(18,68,120,1) 81%);
   margin: 0;
   display: flex;
   place-items: center;
