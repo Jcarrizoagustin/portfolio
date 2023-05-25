@@ -1,0 +1,10 @@
+.footer {
+  height: 3rem;
+  background-color: transparent;
+  text-align: center;
+}
+
+.footerText{
+  font-size: 1.2rem;
+  font-weight: 400;
+}

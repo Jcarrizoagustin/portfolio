@@ -1,5 +1,6 @@
 import Button from "./Button";
 import styles from "./Main.module.css";
+
 function Main() {
   return (
     <div className={styles.container}>

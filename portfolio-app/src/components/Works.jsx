@@ -7,7 +7,7 @@ const info1 = {
   date: "Octubre - 2022",
   description:
     "Sistema de reservas de habitaciones. Desarrado con Spring y sus modulos Spring Boot, Spring Data JPA para la perssitencia de datos, Spring Web y Spring Security para la securizacion. API REST. Frontend creado con React JS. Otras librerias usadas: React Rounter Dom.",
-  tecnologies: ["Spring Boot", "ReactJS", "CSS"],
+  tecnologies: ["Spring Boot", "Spring Security", "ReactJS", "CSS"],
   linkCode: "https://github.com/Jcarrizoagustin/veterinaria",
 };
 

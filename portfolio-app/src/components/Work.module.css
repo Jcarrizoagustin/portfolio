@@ -58,10 +58,13 @@
   width: 1.5rem;
   height: 1.5rem;
   color: #34828c;
+  transition: color .2s ease;
 }
 
 .icon:hover {
   cursor: pointer;
+  color: var(--blanco);
+  transition: color .2s ease;
 }
 
 .links{

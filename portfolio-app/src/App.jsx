@@ -1,5 +1,6 @@
 import "./App.css";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import NotFound from "./components/NotFound";
@@ -16,6 +17,7 @@ function App() {
         <Route path="/contacto" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }
