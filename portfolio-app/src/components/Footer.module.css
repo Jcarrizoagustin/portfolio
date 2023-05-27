@@ -1,4 +1,8 @@
 .footer {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 3rem;
   background-color: transparent;
   text-align: center;

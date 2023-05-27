@@ -39,3 +39,8 @@ body {
   width: 100%;
 }
 
+@media screen and (max-width: 578px){
+  :root{
+    font-size: 15px;
+  }
+}
