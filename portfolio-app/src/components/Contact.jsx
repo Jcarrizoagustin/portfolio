@@ -36,7 +36,7 @@ function Contact() {
           <h3 className={styles.contactName}>GitHub</h3>
         </a>
         <a
-          href="https://www.linkedin.com/in/jcarrizoagustin/"
+          href="mailto:contatorafaballerini@gmail.com"
           target="_blank"
           rel="noreferrer"
           className={styles.contact}
