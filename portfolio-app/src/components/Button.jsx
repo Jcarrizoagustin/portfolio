@@ -1,14 +1,13 @@
 import PropTypes from "prop-types";
 import styles from "./Button.module.css";
-function Button({ text, handleClick }) {
+function Button({ text }) {
   return (
-    <a href="/CV.pdf" download className={styles.button} onClick={handleClick}>
+    <a href="/Agustin_Carrizo-CV.pdf" download className={styles.button}>
       {text}
     </a>
   );
 }
 Button.propTypes = {
   text: PropTypes.string,
-  handleClick: PropTypes.func,
 };
 export default Button;

@@ -1,7 +1,7 @@
 import styles from "./Work.module.css";
 import WorkTecnology from "./WorkTecnology";
 import PropTypes from "prop-types";
-import { BsGithub, BsLink45Deg } from "react-icons/bs";
+import { BsGithub } from "react-icons/bs";
 
 function Work({ workInfo }) {
   return (
@@ -24,20 +24,26 @@ function Work({ workInfo }) {
       <div className={styles.links}>
         {" "}
         <a
-          className={styles.icon}
-          href={workInfo.linkCode}
+          className={styles.link}
+          href={workInfo.backLinkCode}
           target="_blank"
           rel="noreferrer"
         >
-          <BsGithub style={{ width: "1.5rem", height: "1.5rem" }} />
+          <span>Backend</span>
+          <h3 className={styles.icon}>
+            <BsGithub style={{ width: "1.5rem", height: "1.5rem" }} />
+          </h3>
         </a>
         <a
-          className={styles.icon}
-          href={workInfo.linkCode}
+          className={styles.link}
+          href={workInfo.frontLinkCode}
           target="_blank"
           rel="noreferrer"
         >
-          <BsLink45Deg style={{ width: "1.5rem", height: "1.5rem" }} />
+          <span>Frontend</span>
+          <h3 className={styles.icon}>
+            <BsGithub style={{ width: "1.5rem", height: "1.5rem" }} />
+          </h3>
         </a>
       </div>
     </article>

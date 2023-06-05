@@ -58,14 +58,15 @@
   width: 1.5rem;
   height: 1.5rem;
   color: #34828c;
+}
+
+.link:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #34828c;
   transition: color .2s ease;
 }
 
-.icon:hover {
-  cursor: pointer;
-  color: var(--blanco);
-  transition: color .2s ease;
-}
 
 .links{
   margin:.5rem auto;
@@ -74,4 +75,20 @@
   justify-content: center;
   gap: 1rem;
   align-items: center;
+}
+
+.link{
+  display: flex;
+  width: auto;
+  height: 2rem;
+  gap: .5rem;
+  border:1px solid var(--blanco);
+  padding: .3rem;
+  
+  transition: color .2s ease;
+  align-items: center;
+  border-radius: .5rem;
+
+  text-decoration: none;
+  color: var(--blanco);
 }
