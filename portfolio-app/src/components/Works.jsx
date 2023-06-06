@@ -25,6 +25,17 @@ const info2 = {
   frontLinkCode: "https://github.com/Jcarrizoagustin/veterianaria-front",
 };
 
+const info3 = {
+  img: "/img/Inmobiliaria.png",
+  title: "Inmobiliaria",
+  date: "Noviembre - 2022",
+  description:
+    "Trabajo de laboratorio para la cátedra Programación II de la carrera Ingeniería Informática. Caso de estudio: Inmobiliaria. El laboratorio fue desarrollado en Java, siguiendo y aplicando los principios del paradigma orientado a objetos en conjunto con el patrón de diseño Modelo-Vista-Controlador (MVC). Su interfaz gráfica se desarrollo con Swing. ",
+  tecnologies: ["Java", "Swing", "POO", "JUnit"],
+  backLinkCode: "https://gitlab.com/agustincrz/inmobiliaria",
+  frontLinkCode: "https://gitlab.com/agustincrz/inmobiliaria",
+};
+
 const challenge1 = {
   img: "/img/MyTeamChallenge.png",
   title: "My Team Challenge",
@@ -89,6 +100,7 @@ function Works() {
       <section className={styles.worksContainer}>
         <Work workInfo={info1} />
         <Work workInfo={info2} />
+        <Work workInfo={info3} />
       </section>
       <h2
         style={{
