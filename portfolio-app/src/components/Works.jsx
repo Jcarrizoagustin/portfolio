@@ -14,17 +14,6 @@ const info1 = {
     "https://github.com/Jcarrizoagustin/hoteleria-front/tree/main/hoteleria",
 };
 
-const info2 = {
-  img: "/img/Veterinaria.png",
-  title: "Veterinaria",
-  date: "En progreso",
-  description:
-    "Desarrollo de aplicacion para la administracion de una veterinaria. El backend esta construyendose con Spring Boot, Spring Data JPA, PostgreSQL. Por el lado del frontend con React.",
-  tecnologies: ["Spring Boot", "React", "CSS modules"],
-  backLinkCode: "https://github.com/Jcarrizoagustin/veterinaria",
-  frontLinkCode: "https://github.com/Jcarrizoagustin/veterianaria-front",
-};
-
 const info3 = {
   img: "/img/Inmobiliaria.png",
   title: "Inmobiliaria",
@@ -99,7 +88,6 @@ function Works() {
       </h2>
       <section className={styles.worksContainer}>
         <Work workInfo={info1} />
-        <Work workInfo={info2} />
         <Work workInfo={info3} />
       </section>
       <h2
