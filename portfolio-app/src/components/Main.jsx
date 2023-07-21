@@ -7,7 +7,7 @@ function Main() {
       <div className={styles.main}>
         <div className={styles.title}>
           <h1 className={styles.name}>Agustin Carrizo</h1>
-          <h5 className={styles.job}>Programador Backend</h5>
+          <h5 className={styles.job}>Programador Web</h5>
         </div>
         <p className={styles.text}>
           Hola 👋, mi nombre es Agustin, soy estudiante de Ingeniería
