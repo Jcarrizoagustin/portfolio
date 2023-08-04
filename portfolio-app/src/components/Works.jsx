@@ -25,6 +25,17 @@ const info3 = {
   frontLinkCode: "https://gitlab.com/agustincrz/inmobiliaria",
 };
 
+const info2 = {
+  img: "/img/AuthApp.png",
+  title: "Authentication App",
+  date: "Junio - 2023",
+  description:
+    "Challenge fullstack de devchallenges.io. Su desarrollo backend se realizo con Java 17, Spring Boot 3, Spring Security 6, autenticacion JWT y PostgreSQL. El desarrollo frontend se llevo a cabo con React",
+  tecnologies: ["Java", "Spring Boot", "React", "JWT","PostgreSQL"],
+  backLinkCode: "https://github.com/Jcarrizoagustin/authenticationBack",
+  frontLinkCode: "https://github.com/Jcarrizoagustin/authentication-app",
+};
+
 const challenge1 = {
   img: "/img/MyTeamChallenge.png",
   title: "My Team Challenge",
@@ -88,7 +99,9 @@ function Works() {
       </h2>
       <section className={styles.worksContainer}>
         <Work workInfo={info1} />
+        <Work workInfo={info2} />
         <Work workInfo={info3} />
+        
       </section>
       <h2
         style={{
