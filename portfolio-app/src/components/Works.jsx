@@ -23,6 +23,7 @@ const info3 = {
   tecnologies: ["Java", "Swing", "POO", "JUnit"],
   backLinkCode: "https://gitlab.com/agustincrz/inmobiliaria",
   frontLinkCode: "https://gitlab.com/agustincrz/inmobiliaria",
+  demoLinkCode: "",
 };
 
 const info2 = {
@@ -30,10 +31,11 @@ const info2 = {
   title: "Authentication App",
   date: "Junio - 2023",
   description:
-    "Challenge fullstack de devchallenges.io. Su desarrollo backend se realizo con Java 17, Spring Boot 3, Spring Security 6, autenticacion JWT y PostgreSQL. El desarrollo frontend se llevo a cabo con React",
-  tecnologies: ["Java", "Spring Boot", "React", "JWT","PostgreSQL"],
+    "Challenge fullstack de devchallenges.io. El desarrollo backend se realizo con Java 17, Spring Boot 3, Spring Security 6, autenticacion JWT y PostgreSQL. El desarrollo frontend se llevo a cabo con React.",
+  tecnologies: ["Java", "Spring Boot", "React", "JWT","PostgreSQL", "CSS Modules"],
   backLinkCode: "https://github.com/Jcarrizoagustin/authenticationBack",
   frontLinkCode: "https://github.com/Jcarrizoagustin/authentication-app",
+  demoLinkCode: "https://main--storied-axolotl-6907c0.netlify.app",
 };
 
 const challenge1 = {

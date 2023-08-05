@@ -2,6 +2,7 @@ import styles from "./Work.module.css";
 import WorkTecnology from "./WorkTecnology";
 import PropTypes from "prop-types";
 import { BsGithub } from "react-icons/bs";
+import { TbWorldWww } from "react-icons/tb";
 
 function Work({ workInfo }) {
   return (
@@ -45,6 +46,17 @@ function Work({ workInfo }) {
             <BsGithub style={{ width: "1.5rem", height: "1.5rem" }} />
           </h3>
         </a>
+        {workInfo.demoLinkCode && <a
+          className={styles.link}
+          href={workInfo.demoLinkCode}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>Demo</span>
+          <h3 className={styles.icon}>
+            <TbWorldWww style={{ width: "1.5rem", height: "1.5rem" }} />
+          </h3>
+        </a>}
       </div>
     </article>
   );
