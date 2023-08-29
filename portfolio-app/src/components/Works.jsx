@@ -14,6 +14,18 @@ const info1 = {
     "https://github.com/Jcarrizoagustin/hoteleria-front/tree/main/hoteleria",
 };
 
+const info4 = {
+  img: "/img/MiTienda.jpg",
+  title: "Mi Tienda",
+  date: "Agosto - 2023",
+  description:
+    "Mi tienda es una pequeña aplicacion web creada con React, inspirada en la tienda de Dia, que simula el proceso de compra de productos, en este caso bebidas.",
+  tecnologies: ["React", "CSS modules", "Hooks"],
+  backLinkCode: "https://github.com/Jcarrizoagustin/mi-tienda",
+  frontLinkCode: "https://github.com/Jcarrizoagustin/mi-tienda",
+  demoLinkCode: "https://mitiendabebidas.netlify.app/",
+};
+
 const info3 = {
   img: "/img/Inmobiliaria.png",
   title: "Inmobiliaria",
@@ -32,7 +44,14 @@ const info2 = {
   date: "Junio - 2023",
   description:
     "Challenge fullstack de devchallenges.io. El desarrollo backend se realizo con Java 17, Spring Boot 3, Spring Security 6, autenticacion JWT y PostgreSQL. El desarrollo frontend se llevo a cabo con React.",
-  tecnologies: ["Java", "Spring Boot", "React", "JWT","PostgreSQL", "CSS Modules"],
+  tecnologies: [
+    "Java",
+    "Spring Boot",
+    "React",
+    "JWT",
+    "PostgreSQL",
+    "CSS Modules",
+  ],
   backLinkCode: "https://github.com/Jcarrizoagustin/authenticationBack",
   frontLinkCode: "https://github.com/Jcarrizoagustin/authentication-app",
   demoLinkCode: "https://main--storied-axolotl-6907c0.netlify.app",
@@ -102,8 +121,8 @@ function Works() {
       <section className={styles.worksContainer}>
         <Work workInfo={info1} />
         <Work workInfo={info2} />
+        <Work workInfo={info4} />
         <Work workInfo={info3} />
-        
       </section>
       <h2
         style={{
