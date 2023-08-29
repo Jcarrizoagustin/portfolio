@@ -35,12 +35,17 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
   width: 100%;
 }
 
 @media screen and (max-width: 578px){
   :root{
     font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  :root{
+    font-size: 12px;
   }
 }
