@@ -11,12 +11,15 @@ function Main() {
         </div>
         <p className={styles.text}>
           Hola 👋, mi nombre es Agustin, soy estudiante de Ingeniería
-          Informática. Me encanta el mundo del desarrollo de software. Poseo
-          conocimientos sólidos en Java, su framework Spring, y un amplio
-          abanico de tecnologías que dominan el desarrollo web como HTML, CSS,
-          JavaScript y React. Mi principal objetivo es seguir desarrollando y
-          mejorando estas habilidades, enfrentarme a nuevos desafíos que me
-          permitan salir de mi zona de confort y crecer.
+          Informática. Dentro de este maravilloso universo, descubrí un profundo
+          interés por todo lo relacionado con el desarrollo de software. Mi
+          primera toma de contacto con la programación fue en C, donde aprendí
+          desde lo mas básico como lo son los tipos de datos, variables, bucles,
+          condicionales, hasta conceptos mas avanzados como así tambien
+          diferentes paradigmas. Hoy tengo conocimientos en Java, Spring, HTML,
+          CSS, JavaScript, React, Bases de datos, Git, entre otras tecnologías
+          más. Mi principal objetivo es seguir desarrollando todo lo que he
+          aprendido, y porque no, adquirir nuevas habilidades.
         </p>
       </div>
       <Button
